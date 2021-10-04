@@ -1,0 +1,41 @@
+input("Введіть два числа:")
+a = float(input(''))
+b = float(input(''))
+s = input("Знак (+,-,*,/): ")
+if s == '+':
+    print(a+b)
+if s == '-':
+    print(a-b)
+if s == '*':
+    print(a*b)
+if s == '/':
+    print(a/b)
+
+s = input("")
+s1 = ''
+for i in s:
+    print(2 * i, end='')
+
+
+
+s = input ()[::-1]
+print (s)
+
+
+
+
+
+
+while True
+alfavit =  'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгґдеєжзиіїйклмнопрстуфхцчшщьюяabcdefghijklmnopqrstuvwxyz1234567890'
+vbik = int(+1)
+message = input("Ведіть слово:")
+last = ''
+for a in message:
+        misce = alfavit.find(a)
+        new_misce = misce + vbik
+        if a in alfavit:
+            last += alfavit[new_misce]
+        else:
+            last += a
+print (last)
